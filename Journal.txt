@@ -1,0 +1,32 @@
+ToDo:
+x Create email address
+- Create hackmd journal
+- Create wallet
+- Pick engine(s)
+	- VRChat
+	- Neos
+	- Webaverse
+	- Babylon
+- VRoid avatar
+	- Gold bottom grill
+	- Hood
+- 3D scan rocks
+	- Optimize
+- Create Cairn
+	- Terrain
+	- Water (walls)
+	- Skybox
+	- Sun
+	- Rocks
+	- Skeleton
+- Host
+	- Fleek
+	- Pinata
+- Skeleton
+	- Sculpt
+	- Simplify
+	- Texture
+	- Rig
+	- Fix bones
+- ENS Address
+- 30 second video
