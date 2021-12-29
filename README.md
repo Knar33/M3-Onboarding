@@ -7,6 +7,7 @@ https://github.com/M3-org/git-gud
 - [x] Mindset
 - [x] Email address (Identity)
 - [x] Hackmd journal
+- [x] Git
 - [x] Create Avatar
     - [x] Install VRoid Studio
     - [x] Skeletonize
@@ -43,13 +44,15 @@ I'm doing all of this on my Cyberdeck...I've been deep in the mindset for a whil
 ## Identity
 I want to treat the concept of my Identity separately from my Avatar. My Identity will be shared across platforms and I can take different forms (avatars) while still presenting as the same Identity. I created a new email address to serve as the base Identity for account registration and communication. I'm trying out ProtonMail because it's free and encrypted.
 
+The alternative would be to treat the Avatar as its own identity and create new accounts "belonging" to the avatar. I see value in that approach, I might try it in the future.
+
 ## HackMD Journal
 I don't usually like sharing things until they're finished but here we are. I'll be using this as my working task list and dev log. 
 https://hackmd.io/@Knar/M3-Onboarding
 
 ## GitHub
-There are probably better (decentralized) options but I'm using Github for this endeavor.
-https://github.com/KnarXR
+There are probably better (decentralized) options but I'm using Github for now.
+https://github.com/KnarXR/M3-Onboarding
 
 ## Avatar
 The first Avatar I'm creating is Golden Jaw, a gray skeleton with a jawbone made of gold. The basic ingredients for this Avatar are:
@@ -66,13 +69,7 @@ I created a version of Golden Jaw using VRoid Studio. It's a great tool, very si
 With my shiny new VRM avatar, I can test it out in Webaverse (https://app.webaverse.com) by dragging the VRM file into the world and interacting with the e key to equip it. 
 ![](https://i.imgur.com/0nwIglP.jpg)
 
-## World
-I really like the idea of each avatar having a home world that matches their aesthetic/personality. No matter where you go in the metaverse your avatar will have a place where they belong. 
-
-Golden Jaw's home world is the desolate island Cairn:
-> Cairn is dominated by arid, viciously sun-scorched plains strewn with shattered and twisted rock formations. The plains are tortured by winds that blast mercilessly across the flats, howling around the jagged stands of rock. Tornados and dust devils spawn in the scrublands, and wild, rainless electrical storms dance across the blasted plains.
-
-### Engine
+## Engine
 I need to pick the right engine to host my world. My criteria:
 - Web based
 - Self hosted
@@ -91,3 +88,14 @@ These are some of my options:
 
 I'm going with Aframe because of how simple it is to get a scene up and running. I don't want to waste much time coding, I just need a single player home world for now. 
 
+## World
+I really like the idea of each avatar having a home world that matches their aesthetic/personality. No matter where you go in the metaverse your avatar will have a place where they belong. 
+
+Golden Jaw's home world is the desolate island Cairn:
+> Cairn is dominated by arid, viciously sun-scorched plains strewn with shattered and twisted rock formations. The plains are tortured by winds that blast mercilessly across the flats, howling around the jagged stands of rock. Tornados and dust devils spawn in the scrublands, and wild, rainless electrical storms dance across the blasted plains.
+
+Inspiration:
+![](https://i.imgur.com/SbTfgzC.jpg)
+
+During development I will be hosting the world on Github pages: https://knarxr.github.io/
+I'm following this tutorial to get started with A-Frame: https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html
