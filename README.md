@@ -17,12 +17,12 @@ https://github.com/M3-org/git-gud
 - [x] Pick engine(s)
 - [ ] 3D Scan Rocks
 - [ ] Create World
+	- [x] Skybox
 	- [ ] Terrain
-	- [ ] Water (walls)
-	- [ ] Skybox
-	- [ ] Sun
+	- [ ] Water
 	- [ ] Rocks
 	- [ ] Skeleton
+	- [ ] Sun
 - [ ] Create wallet
 - [ ] Host
 	- [ ] Fleek
@@ -95,7 +95,13 @@ Golden Jaw's home world is the desolate island Cairn:
 > Cairn is dominated by arid, viciously sun-scorched plains strewn with shattered and twisted rock formations. The plains are tortured by winds that blast mercilessly across the flats, howling around the jagged stands of rock. Tornados and dust devils spawn in the scrublands, and wild, rainless electrical storms dance across the blasted plains.
 
 Inspiration:
-![](https://i.imgur.com/SbTfgzC.jpg)
+![](https://i.imgur.com/qS9svJN.jpg)
 
-During development I will be hosting the world on Github pages: https://knarxr.github.io/
-I'm following this tutorial to get started with A-Frame: https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html
+During development I will be hosting the world on Github pages
+https://knarxr.github.io/
+
+I'm following this tutorial to get started with A-Frame
+https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html
+
+I did all of my image editing using GIMP, it could be cleaned up but it's fine for now. For the skybox I took shots of the sky, padded the top/bottom edges with a solid color, and edited the left and right edges into a continuous image. I made a tiling texture for the ground and applied it to a flat plane object to serve as a placeholder terrain. An orb ties it all together. After I 3D scan some stuff I'll come back and create a proper sculpted terrain, add water, and put Golden Jaw in his home.
+![](https://i.imgur.com/AQzqYRA.jpg)
