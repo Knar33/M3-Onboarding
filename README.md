@@ -57,11 +57,14 @@ https://github.com/KnarXR/M3-Onboarding
 ## Avatar
 The first Avatar I'm creating is Golden Jaw, a gray skeleton with a jawbone made of gold. The basic ingredients for this Avatar are:
 - Skull head (or gray skin + black face paint)
-- Golden jawbone (or gold face paint)
+- Golden jawbone (or gold face paint + gold bottom grillz)
 - Black Hood
 
 Concept Art - Acrylic on Cotton
 ![](https://i.imgur.com/DKz4ljM.jpg)
+
+These are some Google Image results for "Golden Jaw" that show some of the ways I can adapt the basic ingredients into future variations of the avatar:
+![](https://i.imgur.com/y4GaDzu.jpg)
 
 I created a version of Golden Jaw using VRoid Studio. It's a great tool, very simple to use! I exported two versions of the VRM: a full quality version with ~19,000 polygons, and an optimized version with smaller textures and just under 10,000 polygons. 
 ![](https://i.imgur.com/maT8PYg.png)
@@ -87,6 +90,9 @@ These are some of my options:
 - VRChat - I only tried the steam desktop mode with a free account...They didn't let me register for an account with the Protonmail address.
 
 I'm going with Aframe because of how simple it is to get a scene up and running. I don't want to waste much time coding, I just need a single player home world for now. 
+
+## 3D Scanning
+I don't have a compatible GPU for Meshroom so I'm trying an Android app called 3D Live Scanner by https://lvonasek.github.io/. I wanted to 3D scan some big boulders but it snowed so I'll scan some small stones instead.
 
 ## World
 I really like the idea of each avatar having a home world that matches their aesthetic/personality. No matter where you go in the metaverse your avatar will have a place where they belong. 
