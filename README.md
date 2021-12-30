@@ -19,23 +19,25 @@ https://github.com/M3-org/git-gud
 - [ ] Create World
 	- [x] Skybox
 	- [x] Moon
-	- [ ] Terrain
-	- [ ] Water
+	- [x] Terrain
+	- [x] Water
 	- [ ] Rocks
 	- [ ] Skeleton
-	- [ ] Sun
-- [ ] Create wallet
+	- [x] Lighting
 - [ ] Host
 	- [ ] Fleek
 	- [ ] Pinata
 - [ ] Video
-- [ ] Skeleton Avatar
+
+### Extra stuff:
+- [ ] Create wallet
+- [ ] ENS Address
+- [ ] Custom Skeleton Avatar
 	- [ ] Sculpt
 	- [ ] Simplify
 	- [ ] Texture
 	- [ ] Rig
 	- [ ] Fix bones
-- [ ] ENS Address
 
 # The Journey
 ## Mindset
@@ -112,3 +114,9 @@ https://aframe.io/docs/1.2.0/guides/building-a-basic-scene.html
 
 I did all of my image editing using GIMP, it could be cleaned up but it's fine for now. For the skybox I took shots of the sky, padded the top/bottom edges with a solid color, and edited the left and right edges into a continuous image. I made a tiling texture for the ground and applied it to a flat plane object to serve as a placeholder terrain. An orb ties it all together. After I 3D scan some stuff I'll come back and create a proper sculpted terrain, add water, and put Golden Jaw in his home.
 ![](https://i.imgur.com/WORYaat.jpg)
+
+I tried using a free mountain landscape terrain from cgtrader for the island which worked pretty well: https://www.cgtrader.com/free-3d-models/exterior/landscape/low-poly-realistic-mountain 
+
+I'd rather make my own terrain though, so I sculpted a grid mesh (32x32) until it vaguely resembled an island. I added a texture to the grid and played around with the shading settings until it looked OK in A-Frame:
+![](https://i.imgur.com/Tk3Vsxc.png)
+![](https://i.imgur.com/7TgJrVU.jpg)
