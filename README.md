@@ -15,14 +15,20 @@ https://github.com/M3-org/git-gud
 	- [x] Hood
     - [x] Export
 - [x] Pick engine(s)
-- [ ] 3D Scan Rocks
+- [x] 3D Scan
+    - [x] Scan rocks
+    - [x] clean up loose geometry
+    - [x] Decimate
+    - [x] export gltf
+    - [x] compressed jpeg textures
+    - [x] export glb
 - [ ] Create World
 	- [x] Skybox
 	- [x] Moon
 	- [x] Terrain
 	- [x] Water
 	- [ ] Rocks
-	- [ ] Skeleton
+	- [x] Skeleton
 	- [x] Lighting
 - [ ] Host
 	- [ ] Fleek
@@ -75,6 +81,9 @@ I created a version of Golden Jaw using VRoid Studio. It's a great tool, very si
 With my shiny new VRM avatar, I can test it out in Webaverse (https://app.webaverse.com) by dragging the VRM file into the world and interacting with the e key to equip it. 
 ![](https://i.imgur.com/0nwIglP.jpg)
 
+ToDo:
+- [ ] Tweak VRoid jaw/skil color, re-export
+
 ## Engine
 I need to pick the right engine to host my world. My criteria:
 - Web based
@@ -95,7 +104,26 @@ These are some of my options:
 I'm going with Aframe because of how simple it is to get a scene up and running. I don't want to waste much time coding, I just need a single player home world for now. 
 
 ## 3D Scanning
-I don't have a compatible GPU for Meshroom so I'm trying an Android app called 3D Live Scanner by https://lvonasek.github.io/. I wanted to 3D scan some big boulders but it snowed so I'll scan some small stones instead.
+I don't have a compatible GPU for Meshroom so I tried an Android app called 3D Live Scanner by https://lvonasek.github.io/. The room scanning worked pretty well but the small object failed to connect to the cloud. I didn't want to pay $29.99 to try the Pro version of the app, so I tried another app called Qlone. This one requires a printed QR looking mat to scan, so it's perfect for the small objects I'm scanning. I wanted to 3D scan some big boulders but I scanned some small stones I found outside instead. 
+
+When I first scanned the rocks, I moved around the table and I had the TV on, so the textures are pretty messed up:
+![](https://i.imgur.com/Yca2BVz.jpg)
+![](https://i.imgur.com/aZN6lij.png)
+
+The free-tier scans were impressive enough to throw some support at the developer and export models so I bought the Premium version and re-scanned the rocks in "high-def" mode. I kept the camera stationary and rotated the mat, they came out a lot better this way. These are the final scans vs the real rocks:
+![](https://i.imgur.com/xaj1ARC.png)
+![](https://i.imgur.com/9uPN8uG.png)
+
+Rock 1 in blender
+Cleaning up loose geometry
+![](https://i.imgur.com/RQ7wZIh.png)
+![](https://i.imgur.com/84K5DSf.jpg)
+
+Before/after decimating - Decimating exposes any holes/loose geometry
+![](https://i.imgur.com/dYRBr1H.png)
+
+When I exported my cleaned up rock as gltf + bin + texture, it was already a jpeg. I opened it in GIMP and further compressed it from 276kb down to 76kb. I re-imported the gltf into Blender and exported as a glb. 
+
 
 ## World
 I really like the idea of each avatar having a home world that matches their aesthetic/personality. No matter where you go in the metaverse your avatar will have a place where they belong. 
@@ -120,3 +148,14 @@ I tried using a free mountain landscape terrain from cgtrader for the island whi
 I'd rather make my own terrain though, so I sculpted a grid mesh (32x32) until it vaguely resembled an island. I added a texture to the grid and played around with the shading settings until it looked OK in A-Frame:
 ![](https://i.imgur.com/Tk3Vsxc.png)
 ![](https://i.imgur.com/7TgJrVU.jpg)
+
+I took a free rigged skeleton model from CGTrader (https://www.cgtrader.com/free-3d-models/character/fantasy/skull-18fbb65b-38cd-445c-9929-5e39669ae61e), posed it, and painted the jaw gold. I had to edit the UV because Blender unwrapped it in a weird way where lots of bones overlapped. When I painted part of the jaw, many other parts of the skeleton would be painted as well. I selected every part of the body except for the head and moved them to one side of the texture, and sloppily painted the gold areas gold. I exported as GLTF and arranged it into the scene. 
+
+![](https://i.imgur.com/uPm4Xe2.jpg)
+
+
+I downloaded this free sack model (https://www.cgtrader.com/items/2555762/download-page), replaced the texture and exported as GLTF.
+![](https://i.imgur.com/hGKpW54.jpg)
+
+Except for the rocks, the island is done:
+![](https://i.imgur.com/iakBFuS.jpg)
